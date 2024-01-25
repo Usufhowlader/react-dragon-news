@@ -1,5 +1,7 @@
 import {  FaGoogle,FaGithub, FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
-
+import qZone1 from '../../assets/qZone1.png'
+import qZone2 from '../../assets/qZone2.png'
+import qZone3 from '../../assets/qZone3.png'
 const RightSideNav = () => {
     return (
         <div>
@@ -28,6 +30,13 @@ const RightSideNav = () => {
                 <FaInstagram className='mr-4 text-2xl'></FaInstagram>
                 <small className='text-2xl'>Instagram</small>
              </a>
+            </div>
+            {/* Q Zone */}
+            <div className="p-4 space-y-3 mb-6">
+            <h2 className="text-3xl font-bold">Q Zone</h2>
+             <img src={qZone1} alt="" />
+             <img src={qZone2} alt="" />
+             <img src={qZone3} alt="" />
             </div>
         </div>
     );
